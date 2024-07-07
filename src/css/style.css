@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(45, 52, 255); text-decoration: none; background-color: rgba(24, 149, 149, 0.117);}
+bar {
+    
+    padding:15px;
+    border-bottom: solid 1px #cdcdcd;
+    
+}
+
+header{
+    
+    padding-bottom: 17px;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+nav{
+    border-right: solid 1px #cdcdcd;
+}
+
+a:hover{
+    color: rgb(165, 241, 248);
+    background-color: rgba(40, 46, 235, 0.912);
+    text-shadow: solid 5px 5px rgb(29, 84, 29);
+}
+
+img{
+width: auto;
+max-width: 245px;
+}
+
+header{
+    width: 100%;
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+li{
+    font-size :17px;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer {
+    min-height: 100px;
+    width: 100%;
+    border-top: solid 1px #cdcdcd;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    border-right: none;
+}
+
+figure {
+text-align: center;
+
+}
+
+p {
+    text-align: justify;
+}
+
+#comeco{
+    margin-top:-65px;
+    text-align: center; 
+    font-size: 22px;
+}
+
+#final{
+text-align: center;
+font-size: 22px;
+}
+
